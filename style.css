@@ -78,20 +78,36 @@ h2 {
 }
 
 .caption {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: white;
 }
 
+.ig-comment, .ig-share {
+    padding-left: 7.5px;
+}
 .icons {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 606px;
+    margin-right: 606px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
+    background-color: white;
+
+}
+
+.ig-bookmark {
+   padding-left: 335px;
+
 }
 
 .likes {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    
 }
 
