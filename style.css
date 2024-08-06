@@ -1,9 +1,10 @@
 body {
     margin: 100px;
+    background-color: black;
 }
 img {
-    height: 500px;
-    width: 500px;
+    height: 470px;
+    width: 490px;
 }
 .container {
     display: flex;
@@ -19,13 +20,50 @@ img {
 
 /* header */
 .header {
+   height: 75px;
+    margin-left: 606px;
+    margin-right:   606px;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+   
 }
 
-.fa-brands fa-square-instagram fa-4x{
-    display:flex;
-    height: 100%;
+.ig-top{
+ display: flex;
+ align-items: center;
+ margin-left: 10px;
+
+}
+
+
+h2 {
+    font-size: medium;
+    line-height: 10px;
+    padding-top: 25px;
+    margin: 0px
+}
+.somewhere {
+    margin: 10px;
+    margin-top: 7.5px;
+    margin-left: 0px;
+}
+
+.ig-header {
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    padding-right: 350px;
+    padding-left: 10px;
+    line-height: 10px;
+}
+
+.ig-ellipsis {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    margin-right: 10px;
 }
 
 /* bottom part */
@@ -34,11 +72,15 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: white;
+    margin-right: 606px;
+    margin-left: 606px;
 }
 
 .caption {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
 }
 
 .icons {
