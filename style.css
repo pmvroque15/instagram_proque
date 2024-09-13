@@ -2,27 +2,24 @@ body {
     margin: 100px;
     background-color: black;
 }
+
 img {
-    height: 470px;
-    width: 490px;
+    height: 500px;
+    width: 500px;
+    margin: 0px;
 }
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 
 }
 
-.upper-left {
-    display: flex;
-    flex-direction: row;
-}
 
 /* header */
 .header {
-   height: 75px;
-    margin-left: 606px;
-    margin-right:   606px;
+    width: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -30,10 +27,15 @@ img {
    
 }
 
+.main-header {
+ display: flex;
+ justify-content: center;
+}
+
 .ig-top{
  display: flex;
  align-items: center;
- margin-left: 10px;
+ margin-left: 5px;
 
 }
 
@@ -44,11 +46,7 @@ h2 {
     padding-top: 25px;
     margin: 0px
 }
-.somewhere {
-    margin: 10px;
-    margin-top: 7.5px;
-    margin-left: 0px;
-}
+
 
 .ig-header {
     display: flex;
@@ -68,46 +66,44 @@ h2 {
 
 /* bottom part */
 
-.ig-bottom {
+
+
+.caption {
+    width: 480px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+
+.icon-container { 
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: white;
-    margin-right: 606px;
-    margin-left: 606px;
+    padding: 10px;
 }
 
-.caption {
-    margin-left: 20px;
-    margin-right: 20px;
+.icon-container2 {
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 
-.ig-comment, .ig-share {
-    padding-left: 7.5px;
+.fa-regular {
+    padding-right: 5px;
 }
-.icons {
-    padding-top: 10px;
+
+
+.icon-caption {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
     padding-left: 10px;
-    margin-left: 606px;
-    margin-right: 606px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    background-color: white;
-
-}
-
-.ig-bookmark {
-   padding-left: 335px;
-
-}
-
-.likes {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    margin-bottom: 0px;
+    height: 50px;
     
 }
 
